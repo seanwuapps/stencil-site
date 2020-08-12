@@ -5,6 +5,7 @@ url: /docs/distribution
 contributors:
   - adamdbradley
   - jthoms1
+  - seanwuapps
 ---
 
 # Distribution Output Target
@@ -56,14 +57,14 @@ Each output target, form of bundling and distribution each have their own pros a
 
 
 ### Import the `dist` library using a bundler
-- Run `npm install my-name --save`
-- Add an `import` within the root component: `import my-component`;
+- Run `npm install my-components --save`
+- Add an `import` within the root component: `import 'my-components'`;
 - Stencil will automatically setup the lazy-loading capabilities for the Stencil library.
 - Then you can use the element anywhere in your template, JSX, html etc.
 
 
 ### Import the `dist` library into another Stencil app
-- Run `npm install my-name --save`
-- Add an `import` within the root component: `import my-component`;
+- Run `npm install my-components --save`
+- Add an `import` within the root component: `import 'my-components'`;
 - Stencil will automatically setup the lazy-loading capabilities for the Stencil library.
 - Then you can use the element anywhere in your template, JSX, html etc.
